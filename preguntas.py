@@ -38,6 +38,8 @@ def pregunta_01():
     # Retorne el score del clasificador
     return knn.score(X, y)
 
+    return confusion_matrix(y, y_pred)
+
 def pregunta_02():
     """
     Complete el código presentado a continuación.
@@ -75,5 +77,3 @@ def pregunta_02():
 
     # Retorne la matriz de confusión
     return confusion_matrix(y, y_pred)
-
-print(pregunta_02())
