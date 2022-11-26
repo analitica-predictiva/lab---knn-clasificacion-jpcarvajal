@@ -5,7 +5,7 @@ Clasificación usando k-NN
 
 """
 import pandas as pd
-
+import numpy as np
 def pregunta_01():
     """
     Complete el código presentado a continuación.
@@ -75,3 +75,6 @@ def pregunta_02():
 
     # Retorne la matriz de confusión
     return confusion_matrix(y, y_pred)
+
+print(pregunta_01())
+print(pregunta_02())
